@@ -1,6 +1,8 @@
-# Working with Tabtree files
+# Working with Tabtree files of Geroontology
 
-Tabtree format is convenient to use for coding OWL ontologies and knowledge graphs, as it makes code more compact and readable.
+Tabtree is a language/format convenient to use for coding OWL ontologies and knowledge graphs, as it makes code more compact and readable.
+
+This manual will help you to install all the necessary tools, and commence a happy development of Geroontology through tabtree files.
 
 ## Short instruction
 
@@ -17,7 +19,7 @@ Tabtree format is convenient to use for coding OWL ontologies and knowledge grap
 
 #### Set Light theme
 
-I recommend to set the greyish-white background for editor background as the Tabtree syntax highlighter we install on the next step is optimized exactly for this color mode.
+I recommend to set the greyish-white background for editor background as the Tabtree syntax highlighter we install in the next step is optimized exactly for this color mode.
 
 After downloading and installation of the Atom code editor, choose Light theme by these steps:
  - Press `Ctrl-,`
