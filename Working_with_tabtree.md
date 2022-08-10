@@ -19,7 +19,7 @@ This manual will help you to install all the necessary tools, and commence a hap
 
 #### Set Light theme
 
-I recommend to set the greyish-white background for editor background as the Tabtree syntax highlighter we install in the next step is optimized exactly for this color mode.
+I recommend to set the greyish-white background as the Tabtree syntax highlighter we install in the next step is optimized exactly for this color mode.
 
 After downloading and installation of the Atom code editor, choose Light theme by these steps:
  - Press `Ctrl-,`
