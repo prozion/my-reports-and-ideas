@@ -87,7 +87,7 @@ After commit you will see all the changes made in the project since last `git pu
 
 `Push` command sends new versions of files back to Github repository. And there, special server script launches translation from `geroontology.tree` file to `geroontology.ttl` file in the standard Turtle/OWL syntax.
 
-After a minute or so, you can see the [changed ttl file](https://github.com/prozion/geroontology/blob/builds/turtle/geroontology.ttl). You are welcome to save it on the disk and upload to some ontology editor or viewer.
+After a minute or so, you can see the [changed ttl file](https://raw.githubusercontent.com/prozion/geroontology/builds/turtle/geroontology.ttl). You are welcome to save it on the disk and upload to some ontology editor or viewer.
 
 <img src="working_with_tabtree/save_raw_ttl_file.png" alt="Save a raw Turtle file from GitHub" width=800px />
 
