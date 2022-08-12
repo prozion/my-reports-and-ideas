@@ -43,10 +43,10 @@ Now you've got something like this:
 
 - Download and run installer [from here](https://git-scm.com/download/win). Choose standalone installer, and most probably you would need 64-bit Git
 
-#### Install Sourcetree - a Git client
+#### Install GitHub Desktop - a Git client
 
-- Download and run installer [from here](https://www.sourcetreeapp.com/)
-- Launch Sourcetree
+- Download and run installer [from here](https://desktop.github.com/)
+- Launch GitHub Desktop
 - Choose `New` from the top menu
 - Choose `Clone from URL`
 - In `Source URL` type in Geroontology repository address: `git@github.com:prozion/geroontology.git`
@@ -61,3 +61,16 @@ Now, when you have downloaded Geroontology files, let's go back to Atom editor
 - Navigate to the folder with downloaded repository and select this folder, press `Ok`
 
 In the tree view pane you will see this folder with all the files inside it. You can double-click `geroontology/tabtree/geroontology.tree` to open the file and start working over ontology!
+
+### Update ontology
+
+To make changes accessible to the colleagues, you'll need:
+
+- Make new commit
+- Push it on github
+
+While changes were made to geroontology.tree, at push Github launches translation script and saves resulted Turtle file into another git branch. [Check this file here.](https://github.com/prozion/geroontology/blob/builds/turtle/geroontology.ttl). This file is perfectly fitted to be imported into ontology applications, such as Protege.
+
+<img src="working_with_tabtree/save_raw_ttl_file.png" alt="Save a raw Turtle file from GitHub" width=500px />
+
+ Don't forget to download [a raw .ttl file](https://raw.githubusercontent.com/prozion/geroontology/builds/turtle/geroontology.ttl) rather than a webpage from GitHub.
