@@ -35,7 +35,7 @@ After downloading and installation of the Atom code editor, choose Light theme b
 
 Now you've got something like this:
 
-<img src="working_with_tabtree/atom_code_editor_1.png" alt="Tabtree with syntax highlighting" width=500px />
+<img src="working_with_tabtree/atom_code_editor_1.png" alt="Tabtree with syntax highlighting" width=800px />
 
 ### Install Git client for Windows
 
@@ -50,7 +50,7 @@ Now you've got something like this:
 - (And tell me your login name, so I grant you access rights)
 - Clone Geroontology repository, by selecting it in the list of available repos `git@github.com:prozion/geroontology.git`. Like in the picture below.
 
-<img src="working_with_tabtree/github_desktop_clone_repository.png" alt="Clone the repository in GitHub Desktop" width=500px />
+<img src="working_with_tabtree/github_desktop_clone_repository.png" alt="Clone the repository in GitHub Desktop" width=800px />
 
 ----
 
@@ -68,20 +68,20 @@ In the tree view pane you will see this folder with all the files inside it. You
 
 Let's try to add some more data to ontology. For example comment on `AgingPillar` class.
 
-<img src="working_with_tabtree/atom_edit_ontology.png" alt="Edit ontology in Atom code editor" width=500px />
+<img src="working_with_tabtree/atom_edit_ontology.png" alt="Edit ontology in Atom code editor" width=800px />
 
 
 ### Push changes and load ontology to WebProtege
 
 In GitHub Desktop app press `Commit to main` and then `push`
 
-<img src="working_with_tabtree/github_desktop_push.png" alt="Make git push in GitHub Desktop app" width=500px />
+<img src="working_with_tabtree/github_desktop_push.png" alt="Make git push in GitHub Desktop app" width=800px />
 
 -----
 
 After commit you will see all the changes made in the project since last `git pull` (the state of the latest commit, before the current one). In the green background line we see our new addition.
 
-<img src="working_with_tabtree/github_desktop_diffs.png" alt="Make git push in GitHub Desktop app" width=500px />
+<img src="working_with_tabtree/github_desktop_diffs.png" alt="Make git push in GitHub Desktop app" width=800px />
 
 -----
 
@@ -89,7 +89,7 @@ After commit you will see all the changes made in the project since last `git pu
 
 After a minute or so, you can see the [changed ttl file](https://github.com/prozion/geroontology/blob/builds/turtle/geroontology.ttl). You are welcome to save it on the disk and upload to some ontology editor or viewer.
 
-<img src="working_with_tabtree/save_raw_ttl_file.png" alt="Save a raw Turtle file from GitHub" width=500px />
+<img src="working_with_tabtree/save_raw_ttl_file.png" alt="Save a raw Turtle file from GitHub" width=800px />
 
 -----
 
@@ -99,24 +99,24 @@ Let's see how it looks like in the case of WebProtege.
 - Go to Geroontology project
 - Choose `Project` - `Apply External Edits`
 
-<img src="working_with_tabtree/webprotege_apply_external_edits.png" alt="Save a raw Turtle file from GitHub" width=500px />
+<img src="working_with_tabtree/webprotege_apply_external_edits.png" alt="Save a raw Turtle file from GitHub" width=800px />
 
 ----
 
 Then choose geroontology.ttl file saved locally on the previous step. In my case I have saved this file straight to Desktop.
 
-<img src="working_with_tabtree/webprotege_upload_ontology.png" alt="Pick a file to upload to Webprotege" width=500px />
+<img src="working_with_tabtree/webprotege_upload_ontology.png" alt="Pick a file to upload to Webprotege" width=800px />
 
 -----
 
 After selecting and uploading the file, Webprotege displays what changes are to be made.
 
-<img src="working_with_tabtree/webprotege_changes_to_be_applied.png" alt="Changes to be applied" width=500px />
+<img src="working_with_tabtree/webprotege_changes_to_be_applied.png" alt="Changes to be applied" width=800px />
 
 ------
 
 Click OK and check changes. If to open `Details` pane for`AgingPillar` class, we see that, indeed, our `rdfs:comment` has been added.
 
-<img src="working_with_tabtree/webprotege_new_attribute.png" alt="New attribute appeared" width=500px />
+<img src="working_with_tabtree/webprotege_new_attribute.png" alt="New attribute appeared" width=800px />
 
 -----
